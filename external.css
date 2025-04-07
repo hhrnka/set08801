@@ -1,3 +1,7 @@
-body {background-color: lightblue;}
-h1 {background-color: lightgreen; color: green;}
-p {background-color: orange; color: teal;}
+body { background-color: #fff8f0; font-family: Arial, sans-serif; padding: 20px; }
+        header { font-size: 2em; font-weight: bold; margin-bottom: 10px; }
+        nav a { margin-right: 15px; text-decoration: none; color: #c14444; }
+        h1, h2 { color: #b06010; }
+        p { background-color: #ffe4b5; padding: 8px; border-radius: 5px; }
+        aside { background-color: #f0f8ff; padding: 8px; margin-top: 10px; border-left: 3px solid #888; }
+        footer { margin-top: 30px; font-size: 0.9em; color: #666; }

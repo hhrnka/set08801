@@ -17,14 +17,27 @@
     <section>
         <h1>Cake tips and Techniques</h1>
         <h2>Professional Tips</h2>
+        <p id="dailyTip"></p>
         <p>When baking a cheesecake, it is important not to over bake it. You 
             only want to bake it unitl the middle has a slight wiggle, not
             until it is rock solid.</p>
         <p>It is important that yo use a water bath, discussed at the right,
             to ensureeven baking of your cheesecake.</p>
         <aside>To create a water bath, use a pan that will allow you to fill it with 
-            boiling water that goes halfay up the sprng form pan in which the ckae is placed.</aside>
+            boiling water that goes halfay up the sprng form pan in which the cake is placed.</aside>
     </section>
     <footer>&copy; 2020 - Better Made Cakes - All Rights Reserved </footer>
+    <script>
+        const tips = [
+            "Always measure ingredients accurately.",
+            "Use room temperature ingredients for better texture.",
+            "Do not open the oven door while baking!",
+            "Sift dry ingredients to avoid lumps.",
+            "Preheat your oven before placing the cake inside.",
+            "Cream butter and sugar thoroughly for a lighter cake.",
+            "Line your cake tins properly to prevent sticking."
+        ];
+        document.getElementById('dailyTip').innerText = tips[Math.floor(Math.random() * tips.length)];
+    </script>
 </body>
 </html>
